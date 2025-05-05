@@ -4,12 +4,14 @@
 @endphp
 
 <header class="bg-slate-950 fixed px-10 py-6 flex justify-between items-center w-full text-white z-50">
-    <img src="{{ asset('assets/megah.png') }}" alt="Logo Megah" class="h-8">
-    <nav class="hidden md:flex gap-6 text-lg font-semibold">
-        <a href="{{ route('dashboard', ['username' => $username]) }}" class="hover:text-slate-500 transition">Dashboard</a>
-        <a href="{{ route('pengelolaan', ['username' => $username]) }}" class="hover:text-slate-500 transition">Fleet</a>
+    <div class="w-60">
+        <img src="{{ asset('assets/megah.png') }}" alt="Logo Megah" class="h-8">
+    </div>
+    <nav class="hidden md:flex gap-6 text-lg font-semibold h-full items-center">
+        <a href="{{ route('dashboard', ['username' => $username]) }}" class="hover:underline transition">Dashboard</a>
+        <a href="{{ route('pengelolaan', ['username' => $username]) }}" class="hover:underline transition">Fleet</a>
     </nav>
-    <div class="relative">
+    <div class="relative w-60">
         <button id="dropdownButton" class="flex items-center gap-2">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 24 24" fill="currentColor">
                 <path
@@ -51,3 +53,5 @@
         });
     </script>
 </header>
+
+

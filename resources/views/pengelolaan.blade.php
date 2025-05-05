@@ -2,7 +2,7 @@
 @section('title', 'Fleet')
 
 @section('content')
-    <div class="p-10 pt-24 mb-5">
+    <div class="p-10 pt-24">
         <div>
             <h1 class="text-3xl font-bold">Fleet List</h1>
         </div>
@@ -36,4 +36,9 @@
             </table>
         </div>
     </div>
+    @include('components.footer')
+    <a href="#"
+        class="fixed bottom-6 right-6 flex items-center justify-center w-16 h-16 rounded-full bg-slate-950 text-white text-3xl shadow-lg hover:bg-green-600 transition duration-300 z-50">
+        <svg class="w-12 h-12 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z"></path></svg>
+    </a>
 @endsection
