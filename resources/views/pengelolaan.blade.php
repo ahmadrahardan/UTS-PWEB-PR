@@ -12,10 +12,11 @@
                     <tr class="border-b border-gray-300">
                         <th class="px-6 py-3">Image</th>
                         <th class="px-6 py-3">Class</th>
-                        <th class="px-6 py-3">Price</th>
                         <th class="px-6 py-3">Capacity</th>
-                        <th class="px-6 py-3">Body Type</th>
-                        <th class="px-6 py-3">Machine</th>
+                        <th class="px-6 py-3">One Day (Half day - 8 Hours)</th>
+                        <th class="px-6 py-3">One Day (Full day - 12 Hours)</th>
+                        <th class="px-6 py-3">Two Days</th>
+                        <th class="px-6 py-3">Three Days</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -26,10 +27,11 @@
                                     class="w-24 h-16 object-cover rounded">
                             </td>
                             <td class="px-6 py-4">{{ $fleet['class'] }}</td>
-                            <td class="px-6 py-4">{{ $fleet['price'] }}</td>
                             <td class="px-6 py-4">{{ $fleet['capacity'] }}</td>
-                            <td class="px-6 py-4">{{ $fleet['body_type'] }}</td>
-                            <td class="px-6 py-4">{{ $fleet['machine'] }}</td>
+                            <td class="px-6 py-4">{{ $fleet['price_1'] }}</td>
+                            <td class="px-6 py-4">{{ $fleet['price_2'] }}</td>
+                            <td class="px-6 py-4">{{ $fleet['price_3'] }}</td>
+                            <td class="px-6 py-4">{{ $fleet['price_4'] }}</td>
                         </tr>
                     @endforeach
                 </tbody>

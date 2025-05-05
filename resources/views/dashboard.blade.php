@@ -14,11 +14,11 @@
                 <div class="flex-1 overflow-hidden h-[530px] flex flex-col">
                     <div class="relative group h-[400px] w-full cursor-pointer">
                         <img src="{{ asset('assets/D1.png') }}" alt="Megah"
-                            class="w-full h-full absolute inset-0 object-cover transition-opacity duration-500 ease-in-out group-hover:opacity-0 hidden sm:block">
+                            class="w-full h-full absolute inset-0 object-cover transition-opacity duration-500 ease-in-out group-hover:opacity-0">
                         <img src="{{ asset('assets/P2.png') }}" alt="Megah"
-                            class="w-full h-full absolute inset-0 object-cover transition-opacity duration-500 ease-in-out opacity-0 group-hover:opacity-100 hidden sm:block">
+                            class="w-full h-full absolute inset-0 object-cover transition-opacity duration-500 ease-in-out opacity-0 group-hover:opacity-100">
                     </div>
-                    <div class="sm:pl-40 max-w-xl text-center sm:text-right">
+                    <div class="sm:pl-40 mt-5 sm:mt-0 max-w-xl text-center sm:text-right">
                         <h2 class="text-2xl font-bold text-slate-950 uppercase">PARIWISATA</h2>
                         <p class="mt-1 text-gray-600 text-xs">
                             Nikmati perjalanan nyaman dan aman bersama Megah Transport! Dengan fasilitas lengkap, AC sejuk,
