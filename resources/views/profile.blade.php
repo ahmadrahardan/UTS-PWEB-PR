@@ -17,9 +17,9 @@
                 <h2 class="text-3xl text-center font-bold border-b-2 pb-3 border-slate-950 text-black mb-7">Profile</h2>
                 <div>
                     <label class="block mb-1 text-gray-700 font-medium">Username :</label>
-                    <h1 class="w-full mt-1 border-gray-300 rounded text-md py-3">{{ request('username') }}</h1>
+                    <h1 class="w-full mt-1 border-gray-300 rounded text-md py-3">{{ $username }}</h1>
                     <label class="block mb-1 text-gray-700 font-medium">Password :</label>
-                    <h1 class="w-full mt-1 border-gray-300 rounded text-md py-3">{{ request('password') }}</h1>
+                    <h1 class="w-full mt-1 border-gray-300 rounded text-md py-3">{{ $password }}</h1>
                 </div>
             </div>
             <p class="text-center text-xs text-gray-500 pt-6 w-full">
